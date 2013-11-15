@@ -34,7 +34,5 @@ Installation notes
 0. You will need nodejs installed on your system
 1. Clone the repo
 2. Run nodejs in the root directory 
-
     $ node app.js
-
-3. Brose http://localhost:8000
+3. Browse http://localhost:8000
