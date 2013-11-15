@@ -1,0 +1,165 @@
+extends layout
+
+block content
+  div(id="wrapper")
+    div#header
+      div#head1
+        h1   
+          span(class="logo orange") H
+          span(class="logo green") 3
+          span(class="logo cyan") S
+          span togram - 3D Interactive Color Histogram  | 
+          a(href="/#help", id="openhelp") Help&Info
+          span  | 
+          a(href="http://dofideas.com") DoF ideas
+          span  | 
+          span Article 
+        div#stats
+    div#main
+      div#left
+        div#left_inner
+            p#image_info(style="font-size:70%")
+            canvas#image_canvas(width="400px",height="300px")
+      div#center
+        div#containerR
+      div#right 
+        div#controls
+    div#footer
+      div#footer_1
+        div#custom_image
+          form
+            label
+              | Custom image url
+              input#custom_image_url(type="text", name="url")    
+              input#custom_image_submit(type="submit", value="Load")
+        div#picture_gallery
+          p(style="display:inline;") Pick an image! 
+          each val in all_images
+            img.gallery(src="/images/default/"+val) 
+
+    div#help
+      h2#closex(style="float:right;") 
+        a(href="", style="text-decoration:none;") [x]
+      h2
+        span(class="logo orange") H
+        span(class="logo green") 3
+        span(class="logo cyan") S
+        span togram Help
+      p
+        span H3stogram is a 3D depiction of an image's color distribution (histogram) in the RGB space. It is developed in javascript/HTML5 on the Threejs framework, which wraps on the WebGL api. For more information see the 
+        a(href="http://dofideas.com/h3stogram/") article
+        span  in 
+        a(href="http://dofideas.com") DoF ideas
+        span .
+      h2 Play with it!
+      ol
+        li Pick an image from the bottom fringe. This will load it into the canvas on the top left corner, and from there into the cube in the center of the screen
+        li Navigate the 3D histogram
+          ul 
+              li Left button + drag --> Circle around
+              li Mouse wheel --> Dolly
+              li Right button + drag --> Travelling
+        li Play with the visualization parameters on the controls right column (Visualization folder)
+          ul
+              li Select brick (cube) or bubble elements
+              li Select solid or wireframe elements
+              li Show only the predominant colors increasing the Threshold value
+              li Choose the opacity and size of the elements 
+        li Change the resolution of the 3d histogram (Histogram folder)
+          ul
+              li Bits Per Channel: 4 is the default. Try 5 while it does not get very sluggish
+              li Bytes Per Point: 2 is the default and recommended value (feel free to experiment)
+        li Navigate to highlighted viewpoints (Viewpoint folder)
+          ul
+              li Color Lights --> Color wheel view, from the white corner of the RGB cube
+              li Color Shadows --> Color wheel view, from the black corner of the RGB cube
+              li BW Cold --> View of the cube's black-white long diagonal, from the cold colors edge (blue-cyan)
+              li BW Warm --> View of the cube's black-white long diagonal, from the warm colors edge (red-yellow)
+              li Rest --> Frontal view
+      h2 License
+        div#license
+          include license.jade
+      h2 
+        a(id="closehelp" href="") Close
+
+  script(type="text/javascript")
+      var help = function(){
+          $("#help").css({
+              display : "none",
+              position: "absolute",
+              top: "2px",
+              left: "2px",
+              right: "2px",
+              border: "1px solid grey",
+              background: "rgba(30,30,30,0.98)"
+          });
+          var close_help = function(evt){
+              $("#help").css("display","none");
+              //evt.preventDefault();
+          };
+          //$("#help").click(close_help);
+          $("#closex").click(close_help);
+          $("#closehelp").click(close_help);
+          $("#openhelp").click(function(evt){
+              $("#help").css("display","block");
+              evt.preventDefault();
+          });
+      }; 
+      images_info = {
+          'IMG_6732.png' : {title: "Yellow flower"},
+          'IMG_8913.png' : {title: "Dome"},
+          'IMG_9120.png' : {title: "Gorizia-Nova Gorica"},
+          'IMG_9880.png' : {title: "Mavrud bottle"},
+          'P2150071.JPG' : {title: "Barquito portugués"},
+          'P9180275_300.png' : {title: "Umbrellas"},
+          'P9190340.png' : {
+              title: "Venetian palace", 
+              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              href:"http://coordenadasurbanas.com"
+          },
+          'P9190359.png' : {
+              title: "Venetian boat",
+              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              href:"http://coordenadasurbanas.com"
+          },
+          'P9190359_BW.png' : {
+              title: "Venetian boat",
+              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              href:"http://coordenadasurbanas.com"
+          },
+          'P9190359_BW_curve.png' : {
+              title: "Venetian boat",
+              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              href:"http://coordenadasurbanas.com"
+          },
+          'P9190359_contrast.png' : {
+              title: "Venetian boat",
+              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              href:"http://coordenadasurbanas.com"
+          },
+          'P9190359_saturation.png' : {
+              title: "Venetian boat",
+              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              href:"http://coordenadasurbanas.com"
+          },
+          'P9190379.JPG' : {
+              title: "Venetian Mask", 
+              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              href:"http://coordenadasurbanas.com"
+          },
+          'PERSEO.jpg' : {title: "Perseo, Florence"},
+          'yellow_field.png' : {title: "Yellow field"},
+          'yellow_field_saturate.png' : {title: "Yellow field"}
+      };
+      MY.main();
+        
+        
+      //$(document).ready(MY.main);
+      $(document).ready(help);

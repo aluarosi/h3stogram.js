@@ -1,0 +1,146 @@
+html {
+  height: 94%;
+}
+body {
+  font: 14px 'Open Sans', sans-serif;
+  color: #ddd;
+  background-color: #070707;
+  position: relative;
+  height: 100%;
+  font-size: 100%;
+  font-family: 'Consolas', sans-serif;
+}
+
+h1 {
+  font-size: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+#wrapper {
+  padding: 2px;
+  height: 100%;
+  position: relative;
+}
+
+#header {
+  padding: 0px;
+  height: 10%;
+  position: relative;  
+  border: 1px solid #222;
+}
+
+#head1 {
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  background-color: #111;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#main {
+  padding 1px;
+  position: relative;
+  height: 80%;
+  margin-top: 3px;
+}
+
+#left {
+  position: absolute;
+  left: 0px;
+  min-width: 300px;
+  max-width: 300px;
+  height: 100%;
+}
+
+#left_inner{
+  overflow: hidden;
+  height: 100%;
+}
+
+canvas#image_canvas {
+  width: 98%;
+  border: 1px solid #222;
+}
+
+#right {
+  position: absolute;
+  right: 0px;
+  width: 260px;
+  height: 100%;
+  overflow: auto;
+}
+
+#controls:first-child {
+}
+
+#stats {
+  position: absolute;
+  bottom: 0px;
+  right: 0px; 
+}
+
+#center {
+  position: absolute;
+  left: 300px;
+  right: 260px;
+  height: 100%;
+}
+
+#containerR {
+  height: 100%;
+}
+
+#footer {
+  padding 1px;
+  height: 10%;
+}
+
+#license {
+  font-size: 70%;
+}
+
+#custom_image {
+  margin: 1px;
+  display: none;
+}
+
+#picture_gallery {
+  height: 75px;
+  padding: 1px;
+  padding-top: 3px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#picture_gallery img {
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 1px solid #222;
+  height: 50px;
+}
+
+.logo {
+  font-size: 140%;
+}
+
+.orange {
+  color: #f70;
+}
+.green {
+  color: #0f0;
+}
+.cyan {
+  color: #0ff;
+}
+
+#help {
+  font-size: 80%;
+  padding-left: 1em;
+  padding-right: 1em;
+}

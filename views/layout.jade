@@ -1,0 +1,21 @@
+doctype 5
+html
+  head
+    title= title
+    include license_comment.jade
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    script(type='text/javascript', src='/javascripts/lib/three_r61.js')
+    script(type='text/javascript', src='/javascripts/lib/jquery.js')
+    script(type='text/javascript', src='/javascripts/lib/OrbitAndPanControls.new.js')
+    script(type='text/javascript', src='/javascripts/lib/dat.gui.min.js')
+    script(type='text/javascript', src='/javascripts/lib/stats.js')
+
+    script(type='text/javascript', src='/javascripts/cosa.js')
+    script(type='text/javascript', src='/javascripts/event.js')
+    script(type='text/javascript', src='/javascripts/h3.js')
+    script(type='text/javascript', src='/javascripts/h3visualizer.js')
+    script(type='text/javascript', src='/javascripts/h3stogram_main.js')
+
+  body
+    block content
