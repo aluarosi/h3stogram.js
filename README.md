@@ -4,7 +4,7 @@ H3stogram is an Interactive three dimensional color histogram for visualizing an
 
 H3stogram is a 3D depiction of an image's color distribution (histogram) in the RGB space. It is developed in javascript/HTML5 on the Threejs framework, which wraps on the WebGL api. For more information see the article in DoF ideas.
 
-Got to http://h3stogram.dofideas.com and...
+Go to http://h3stogram.dofideas.com and...
 
 Play with it!
 ------------
@@ -34,5 +34,5 @@ Installation notes
 0. You will need nodejs installed on your system
 1. Clone the repo
 2. Run nodejs in the root directory 
-    `$ node app.js
+    $ node app.js
 3. Brose http://localhost:8000
