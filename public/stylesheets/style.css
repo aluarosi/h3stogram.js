@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-size: 100%;
+  font-size: 110%;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 
 #header {
   padding: 0px;
-  height: 10%;
+  height: 50px;
   position: relative;  
   border: 1px solid #222;
 }
@@ -100,7 +100,7 @@ canvas#image_canvas {
   background-color: #333;
   border: 1px solid #222;
   padding 1px;
-  height: 10%;
+  height: 58px;
 }
 
 #license {
@@ -144,5 +144,7 @@ canvas#image_canvas {
 #help {
   font-size: 80%;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 1px;
+  padding-right: 150px;
 }
+

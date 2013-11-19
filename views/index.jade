@@ -4,7 +4,7 @@ block content
   div(id="wrapper")
     div#header
       div#head1
-        h1   
+        h1
           span(class="logo orange") H
           span(class="logo green") 3
           span(class="logo cyan") S
@@ -38,6 +38,7 @@ block content
             img.gallery(src="/images/default/"+val) 
 
     div#help
+      include github_forkme.jade
       h2#closex(style="float:right;") 
         a(href="", style="text-decoration:none;") [x]
       h2
@@ -45,12 +46,21 @@ block content
         span(class="logo green") 3
         span(class="logo cyan") S
         span togram Help
+      h2 What is this?
       p
         span H3stogram is a 3D depiction of an image's color distribution (histogram) in the RGB space. It is developed in javascript/HTML5 on the Threejs framework, which wraps on the WebGL api. For more information see the 
         a(href="http://dofideas.com/h3stogram/") article
         span  in 
         a(href="http://dofideas.com") DoF ideas
         span .
+      h2 Contact 
+      p 
+        span If you are interested in H3stogram as a user, photographer or developer, you can get in touch with me through 
+        a(href="http://dofideas.com/about/") DoFideas
+        span  and  
+        a(href="https://github.com/aluarosi/") GitHub
+        
+        
       h2 Play with it!
       ol
         li Pick an image from the bottom fringe. This will load it into the canvas on the top left corner, and from there into the cube in the center of the screen
@@ -76,6 +86,14 @@ block content
               li BW Cold --> View of the cube's black-white long diagonal, from the cold colors edge (blue-cyan)
               li BW Warm --> View of the cube's black-white long diagonal, from the warm colors edge (red-yellow)
               li Rest --> Frontal view
+      h2 Upcoming...
+      p
+        ul
+          li Highlight the clicked pixel's color in the h3stogram
+          li Contrast, saturation and other transformations in real time
+          li Upload custom image
+          li Capture webcam
+          li More user ideas
       h2 License
         div#license
           include license.jade
