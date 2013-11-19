@@ -50,7 +50,8 @@ MY = {
         view_colorwheel_shadow : function(){},
         view_BWdiagonal_cold : function(){},
         view_BWdiagonal_warm : function(){},
-        view_reset : function(){}
+        view_reset : function(){},
+        background_brightness : 128
     },  
 
     stats       :   null,
@@ -247,6 +248,10 @@ MY.setupGui = function(){
     f_histogram.open();
     f_viewpoint.open();
     //Controls
+    var ctrl_brightness = f_visualizer.add(
+        this.h3visualizer_controls,
+        'background_brightness',0,255
+    ).name("Background");
     var ctrl_type = f_visualizer.add(
         this.h3visualizer_controls,
         'type',this.h3visualizer_controls.types
@@ -301,6 +306,11 @@ MY.setupGui = function(){
      * Connections
      */ 
     var that = this;
+    ctrl_brightness.onChange( function(val) {
+        console.log(val);
+        var val = val|0;
+        $("body").css('background-color', 'rgb('+val+','+val+','+val+')');
+    });
     ctrl_type.onChange( function(val) {
         that.h3visualizer.setVisualizationMode(val);
     });

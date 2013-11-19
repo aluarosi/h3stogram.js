@@ -4,7 +4,7 @@ html {
 body {
   font: 14px 'Open Sans', sans-serif;
   color: #ddd;
-  background-color: #070707;
+  background-color: #888;
   position: relative;
   height: 100%;
   font-size: 100%;
@@ -38,7 +38,7 @@ a {
   left: 0px;
   right: 0px;
   position: absolute;
-  background-color: #111;
+  background-color: #333;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -97,6 +97,8 @@ canvas#image_canvas {
 }
 
 #footer {
+  background-color: #333;
+  border: 1px solid #222;
   padding 1px;
   height: 10%;
 }
