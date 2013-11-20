@@ -1,6 +1,12 @@
 H3stogram - Interactive Three Dimensional Color Histogram 
 https://github.com/aluarosi/h3stogram.js
 
+The sample images included with this software are published under different
+licensing terms depending on each author and image. 
+Images licensing information is located in /public/images/LICENSE
+
+For the software, the following license applies.
+
 The MIT License (MIT)
 
 Copyright (c) 2013  Alvaro Santamaria Herrero (aluarosi)
