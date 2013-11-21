@@ -87,8 +87,8 @@ canvas#image_canvas {
 
 #center {
   position: absolute;
-  left: 300px;
-  right: 260px;
+  left: 0px;
+  right: 0px;
   height: 100%;
 }
 

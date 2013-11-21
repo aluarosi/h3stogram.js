@@ -35,7 +35,7 @@ MY = {
         size    :   3,
         type    :   'bubble',
         types   :   ['bubble','brick'],
-        wireframe   :   false,
+        wireframe   :   true,
         show_cube_frame   :   true,
         threshold   :   0.01,
         opacity_factor :   2.0,
@@ -44,7 +44,7 @@ MY = {
         size_factors    :   [1,2,4,8],
         bpc     :   4,
         bpcs    :   [1,2,3,4,5],
-        bpp     :   2,
+        bpp     :   1,
         bpps    :   [1,2],
         view_colorwheel_light : function(){},
         view_colorwheel_shadow : function(){},
@@ -56,7 +56,7 @@ MY = {
 
     stats       :   null,
 
-    image_source    :   "images/default/PERSEO.jpg",
+    image_source    :   "images/default/JavierVillarroel_048flor01_o_350.png",
     image_canvas    :   null,
     image_context   :   null,
     image_data      :   null,
@@ -82,6 +82,9 @@ MY.main = function(){
     //
     this.setupGallery();
     this.loadPicture();
+    // Locate camera
+    var k = MY.h3visualizer_controls.size * 2;
+    MY.cameraDriver.setDestination( -k,0,k ).go();
 };
 
 MY.setupGallery = function(){
