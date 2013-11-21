@@ -1,6 +1,6 @@
 Information about the LICENSE of the images included in this folder.
 
-If not made explicit for a particular image (see list below) the following apply:
+If not made explicit for a particular image (see list below) the following author and license apply:
 Author: Alvaro Santamaria Herrero http://dofideas.com 
 License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/
 
@@ -8,31 +8,43 @@ License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) http://creativecommo
           'IMG_6732.png' : {title: "Yellow flower"},
           'JavierVillarroel_028coloniacandados_o_350px.png' : {
                title: "Colonia de candados",
+               license: "All Rights Reserved",
                author: '<a href="http://www.javiervillarroel.mye.name/">(C) Javier Villarroel</a>', 
                href:"http://www.javiervillarroel.mye.name/"
           },
           'JavierVillarroel_048flor01_o_350.png' : {
                title: "Flor",
+               license: "All Rights Reserved",
                author: '<a href="http://www.javiervillarroel.mye.name/">(C) Javier Villarroel</a>', 
                href:"http://www.javiervillarroel.mye.name/"
           },
           'JavierVillarroel_051piedras01_o_350.png' : {
                title: "Flor",
+               license: "All Rights Reserved",
                author: '<a href="http://www.javiervillarroel.mye.name/">(C) Javier Villarroel</a>', 
                href:"http://www.javiervillarroel.mye.name/"
           },
           'JavierVillarroel_cactus.png' : {
                title: "Cactus",
+               license: "All Rights Reserved",
                author: '<a href="http://www.javiervillarroel.mye.name/">(C) Javier Villarroel</a>', 
                href:"http://www.javiervillarroel.mye.name/"
           },
           'JavierVillarroel_flor2.png' : {
                title: "Flor",
+               license: "All Rights Reserved",
                author: '<a href="http://www.javiervillarroel.mye.name/">(C) Javier Villarroel</a>', 
                href:"http://www.javiervillarroel.mye.name/"
           },
           'JavierVillarroel_yellownumber.png' : {
                title: "Sin título",
+               license: "All Rights Reserved",
+               author: '<a href="http://www.javiervillarroel.mye.name/">(C) Javier Villarroel</a>', 
+               href:"http://www.javiervillarroel.mye.name/"
+          },
+          'JavierVillarroel_llavero.png' : {
+               title: "Llavero",
+               license: "All Rights Reserved",
                author: '<a href="http://www.javiervillarroel.mye.name/">(C) Javier Villarroel</a>', 
                href:"http://www.javiervillarroel.mye.name/"
           },
@@ -50,43 +62,40 @@ License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) http://creativecommo
           'P9190359.png' : {
               title: "Venetian boat",
               license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
-              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_BW.png' : {
               title: "Venetian boat",
               license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
-              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_BW_curve.png' : {
               title: "Venetian boat",
               license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
-              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_contrast.png' : {
               title: "Venetian boat",
               license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
-              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_saturation.png' : {
               title: "Venetian boat",
               license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
-              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190379.JPG' : {
               title: "Venetian Mask", 
               license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
-              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'PERSEO.jpg' : {title: "Perseo, Florence"},
           'yellow_field.png' : {title: "Yellow field"},
           'yellow_field_saturate.png' : {title: "Yellow field"}
       };
-
-
-    
