@@ -209,11 +209,11 @@ MY.loadPicture = function(picture){
         if (image_info.title !== undefined) {
             $("#image_info").html(image_info.title);
         }
-        if (image_info.license !== undefined) {
-            $("#image_info").append("<br/> "+image_info.license);
-        }
         if (image_info.author !== undefined) {
-            $("#image_info").append(" "+image_info.author);
+            $("#image_info").append("<br/> "+" "+image_info.author);
+        }
+        if (image_info.license !== undefined) {
+            $("#image_info").append(" "+image_info.license);
         }
         var W = image.width;
         var H = image.height;
