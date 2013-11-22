@@ -63,10 +63,6 @@ a {
   height: 100%;
 }
 
-#image_info {
-  z-index: 10;
-}
-
 canvas#image_canvas {
   width: 98%;
   border: 1px solid #222;
@@ -91,8 +87,8 @@ canvas#image_canvas {
 
 #center {
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 200px;
+  right: 200px;
   height: 100%;
 }
 

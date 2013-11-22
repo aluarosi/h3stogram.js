@@ -213,7 +213,7 @@ MY.loadPicture = function(picture){
             $("#image_info").append("<br/> "+" "+image_info.author);
         }
         if (image_info.license !== undefined) {
-            $("#image_info").append(" "+image_info.license);
+            $("#image_info").append("<br/> "+image_info.license);
         }
         var W = image.width;
         var H = image.height;
