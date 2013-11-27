@@ -6,6 +6,42 @@ License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) http://creativecommo
 
       images_info = {
           'IMG_6732.png' : {title: "Yellow flower"},
+          'CarlosSicre_madrid.png' : {
+               title: "Sin titulo",
+               license: "All Rights Reserved",
+               author: '<a href="http://www.carlossicre.com/">(C) Carlos Sicre</a>', 
+               href:"http://www.carlossicre.com/"
+          },
+          'CarlosSicre_bali.png' : {
+               title: "Sin titulo",
+               license: "All Rights Reserved",
+               author: '<a href="http://www.carlossicre.com/">(C) Carlos Sicre</a>', 
+               href:"http://www.carlossicre.com/"
+          },
+          'CarlosSicre_girafa.png' : {
+               title: "Sin titulo",
+               license: "All Rights Reserved",
+               author: '<a href="http://www.carlossicre.com/">(C) Carlos Sicre</a>', 
+               href:"http://www.carlossicre.com/"
+          },
+          'CarlosSicre_flor.png' : {
+               title: "Sin titulo",
+               license: "All Rights Reserved",
+               author: '<a href="http://www.carlossicre.com/">(C) Carlos Sicre</a>', 
+               href:"http://www.carlossicre.com/"
+          },
+          'CarlosSicre_campo.png' : {
+               title: "Sin titulo",
+               license: "All Rights Reserved",
+               author: '<a href="http://www.carlossicre.com/">(C) Carlos Sicre</a>', 
+               href:"http://www.carlossicre.com/"
+          },
+          'CarlosSicre_reptil.png' : {
+               title: "Sin titulo",
+               license: "All Rights Reserved",
+               author: '<a href="http://www.carlossicre.com/">(C) Carlos Sicre</a>', 
+               href:"http://www.carlossicre.com/"
+          },
           'JavierVillarroel_028coloniacandados_o_350px.png' : {
                title: "Colonia de candados",
                license: "All Rights Reserved",
@@ -55,43 +91,43 @@ License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) http://creativecommo
           'P9180275_300.png' : {title: "Umbrellas"},
           'P9190340.png' : {
               title: "Venetian palace", 
-              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
-              author: '<a href="http://coordenadasurbanas.com">Katherine Perez Dominguez</a>', 
+              license: 'License: <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359.png' : {
               title: "Venetian boat",
-              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              license: 'License: <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
               author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_BW.png' : {
               title: "Venetian boat",
-              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              license: 'License <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
               author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_BW_curve.png' : {
               title: "Venetian boat",
-              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              license: 'License <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
               author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_contrast.png' : {
               title: "Venetian boat",
-              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              license: 'License: <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
               author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190359_saturation.png' : {
               title: "Venetian boat",
-              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              license: 'License: <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
               author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },
           'P9190379.JPG' : {
               title: "Venetian Mask", 
-              license: '<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
+              license: 'License: <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>',
               author: '<a href="http://coordenadasurbanas.com">(C) Katherine Perez Dominguez</a>', 
               href:"http://coordenadasurbanas.com"
           },

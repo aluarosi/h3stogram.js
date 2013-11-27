@@ -27,7 +27,8 @@
  */
 
 MY = {
-    clock       :   new THREE.Clock(), renderer    :   null,
+    clock       :   new THREE.Clock(), 
+    renderer    :   null,
     camera      :   null,
     
     h3visualizer    :   null,
